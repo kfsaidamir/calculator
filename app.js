@@ -1,5 +1,4 @@
 
-
 // function overal(a,b,c,d) {
 //     var a,b,c,d
 //     a = prompt('select + - / *')
@@ -30,26 +29,51 @@
 // }
 
 // console.log(obj)
-a()
-function a()  {
-    var a,b,c,d
-    a = prompt(' Operators: +  -  *  /')
-    b = +prompt('write first number')
-    c=  +prompt('write second number')
+      //eng
+// function a()  {
+//     var a,b,c,d 
+//     a = prompt(' Operators: +  -  *  /')
+//     b = +prompt('First number')
+//     c=  +prompt('Second number')
 
-    if(a=='+') {
-        d=Number(b)+Number(c)
-    } else if (a=='-') {
+//     if(a=='+') {
+//         d=Number(b)+Number(c) 
+//     } else if (a=='-') {
+//         d=Number(b)-Number(c)
+//     }else if (a == '*') {
+//         d=Number(b)*Number(c)
+//     }else if (a == '/') {
+//         d=Number(b)/Number(c)
+//     }
+//     alert(d)
+// }
+// a()
+
+       //ru
+function a() {
+    var a,b,c,d 
+    a = prompt('Выберите + - * /')
+    b = +prompt('первая цифра')
+    c = +prompt('вторая цифра')
+
+    if(a=='+'){
+    d=Number(b)+Number(c)
+    }else if(a=='-'){
         d=Number(b)-Number(c)
-    }else if (a == '*') {
+    }else if(a=='*'){
         d=Number(b)*Number(c)
-    }else if (a == '/') {
+    }else if(a=='/') {
         d=Number(b)/Number(c)
     }
     alert(d)
 }
+a()
 
-
+// function imgUrl(element) {
+//     let url = prompt('Write URL image');
+//     element.style.backgroundImage = 'url(' + url + ')';
+// }
+// imgUrl()
 
 
 
