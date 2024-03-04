@@ -1,34 +1,4 @@
 
-// function overal(a,b,c,d) {
-//     var a,b,c,d
-//     a = prompt('select + - / *')
-//     b = prompt('first number')
-//     c = prompt('second number')
-//     d = prompt()
-
-//     if(a=="+") {
-//         Number(b)+Number(c)
-//     } else if (a=="-") {
-//         Number(b)-Number(c)
-//     }else if (a=="*") {
-//         Number(b)*Number(c)
-//     }else if (a=="/") {
-//         Number(b)/Number(c)
-//     }
-// }
-// overal(a,b,c,d)
-
-// const a = prompt('Whats your name?')
-// const b = +prompt('How old are you?')
-// const c = prompt('Who are you in your life?')
-
-// const obj = {
-//     name:a,
-//     age:b,
-//     job:c,
-// }
-
-// console.log(obj)
       //eng
 // function a()  {
 //     var a,b,c,d 
@@ -51,29 +21,49 @@
 
        //ru
 function a() {
-    var a,b,c,d 
+    var a,b,c,d,f,
     a = prompt('Выберите + - * /')
     b = +prompt('первая цифра')
     c = +prompt('вторая цифра')
+    // d = +prompt('третья цифра')
+    // e = +prompt('четвертая цифра')
+    // if(b,c =='+') {
+    //   z = alert(`${b}+${c}`)
+    // }else if(b,c == '-') {
+    // z = alert(`${b}-${c}`)
+    // }else if(b,c == '*') {
+    // z = alert(`${b}*${c}`)
+    // }else if(b,c == '/'){
+    // z = alert(`${b}/${c}`)
+    // } alert(z) 
 
     if(a=='+'){
-    d=Number(b)+Number(c)
+    f=Number(b)+Number(c)
+    // f=Number(c)+Number(d)
+    // f=Number(d)+Number(e)
     }else if(a=='-'){
-        d=Number(b)-Number(c)
+        f=Number(b)-Number(c)
+        // f=Number(c)-Number(d)
+        // f=Number(d)-Number(e)
     }else if(a=='*'){
-        d=Number(b)*Number(c)
+        f=Number(b)*Number(c)
+        // f=Number(c)*Number(d)
+        // f=Number(d)*Number(e)
     }else if(a=='/') {
-        d=Number(b)/Number(c)
+        f=Number(b)/Number(c)
+        // f=Number(c)/Number(d)
+        // f=Number(d)/Number(e)
     }
-    alert(d)
+    alert(`${b} ${a} ${c} = ${f}`)
+    for (let i = 0; i < 12; i+= 1) {
+        a = prompt('Выберите + - * /')
+        b = +prompt('первая цифра')
+        c = +prompt('вторая цифра')
+        alert(`${b} ${a} ${c} = ${f}`)
+ }
 }
 a()
 
-// function imgUrl(element) {
-//     let url = prompt('Write URL image');
-//     element.style.backgroundImage = 'url(' + url + ')';
-// }
-// imgUrl()
 
 
 
